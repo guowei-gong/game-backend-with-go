@@ -1,0 +1,243 @@
+# Project information
+site_name: 重生之我用 Go 写游戏后端
+site_url: https://www.hello-algo.com/
+site_author: guowei-gong
+site_description: 动画图解、一键运行的数据结构与算法教程
+site_dir: site
+
+# Repository
+repo_name: guowei-gong/game-backend-with-go
+repo_url: https://github.com/guowei-gong/game-backend-with-go
+edit_uri: tree/main/docs
+version: 1.1.0
+
+# Copyright
+copyright: Copyright &copy; 2024 guowei-gong<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  features:
+    - announce.dismiss
+    - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 深色模式
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 浅色模式
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  icon:
+    logo: logo
+    repo: fontawesome/brands/github
+    edit: fontawesome/regular/pen-to-square
+
+extra:
+  alternate:
+    - name: 简体中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/guowei-gong
+    - icon: fontawesome/brands/x-twitter
+      link: https://weizicoding.cn
+  generator: false
+  status:
+    new: 最近添加
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+  # - javascripts/katex.js 
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - stylesheets/extra.css
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+# Page tree
+nav:
+  - 序:
+    - chapter_hello_algo/index.md
+  - 第 0 章 &nbsp; 前言:
+    #[icon: material/book-open-outline]
+    - chapter_preface/index.md
+    - 0.1 &nbsp; 关于本书: chapter_preface/about_the_book.md
+    - 0.2 &nbsp; 如何使用本书: chapter_preface/suggestions.md
+    - 0.3 &nbsp; 小结: chapter_preface/summary.md
+  - 第 1 章 &nbsp; 测试:
+    # [icon: material/stack-overflow]
+    - chapter_stack_and_queue/index.md
+    - 1.1 &nbsp; 测试机器人: chapter_stack_and_queue/stack.md
+    - 1.2 &nbsp; 小结: chapter_stack_and_queue/summary.md
+  - 第 2 章 &nbsp; 热更新:
+    # [icon: material/calculator-variant-outline]
+    - chapter_introduction/index.md
+    - 2.1 &nbsp; 配置热更: chapter_introduction/algorithms_are_everywhere.md
+    - 2.2 &nbsp; 代码热更: chapter_introduction/what_is_dsa.md
+    - 2.3 &nbsp; 小结: chapter_introduction/summary.md
+  - 第 3 章 &nbsp; 网络编程:
+    # [icon: material/timer-sand]
+    - chapter_computational_complexity/index.md
+    - 3.1 &nbsp; 组包与解包: chapter_computational_complexity/performance_evaluation.md
+    - 3.2 &nbsp; KCP 协议: chapter_computational_complexity/kcp.md
+    - 3.3 &nbsp; 小结: chapter_computational_complexity/summary.md
+  - 第 4 章 &nbsp; 数据结构:
+    # [icon: material/shape-outline]
+    - chapter_data_structure/index.md
+    - 4.1 &nbsp; Redis: chapter_data_structure/redis.md
+    - 4.2 &nbsp; 十字链表: chapter_data_structure/trie.md
+    - 4.3 &nbsp; 四叉树与八叉树: chapter_data_structure/classification_of_data_structure.md
+    - 4.4 &nbsp; 小结: chapter_data_structure/summary.md
+  - 第 5 章 &nbsp; 无锁编程:
+    # [icon: material/view-list-outline]
+    - chapter_array_and_linkedlist/index.md
+    - 5.1 &nbsp; Actor 模型: chapter_array_and_linkedlist/array.md
+    - 5.2 &nbsp; 小结: chapter_array_and_linkedlist/summary.md
+  - 第 6 章 &nbsp; 断线重连:
+    # [icon: material/table-search]
+    - chapter_hashing/index.md
+    - 6.1 &nbsp; 小结: chapter_hashing/summary.md
+  - 第 7 章 &nbsp; 常见业务:
+    # [icon: material/graph-outline]
+    - chapter_tree/index.md
+    - 7.1 &nbsp; 排行榜: chapter_tree/binary_tree.md
+    - 7.2 &nbsp; 多人匹配 · 我感觉你是一位很强的魔法使: chapter_tree/binary_tree_traversal.md
+    - 7.3 &nbsp; 充值系统 · 每一次挥动都是致命一击: chapter_tree/array_representation_of_tree.md
+    - 7.4 &nbsp; 道具系统 · 没有人阻止我发动世界级道具吗: chapter_tree/binary_search_tree.md
+    - 7.5 &nbsp; 关卡系统: chapter_tree/summary.md
+    - 7.6 &nbsp; 登录注册: chapter_tree/login_and_register.md
+    - 7.7 &nbsp; 邮件系统: chapter_tree/mail_system.md
+    - 7.8 &nbsp; 管理后台: chapter_tree/admin_system.md
+    - 7.9 &nbsp; 小结: chapter_tree/summary.md
+  - 第 8 章 &nbsp; 场景管理:
+    # [icon: material/graphql]
+    - chapter_graph/index.md
+    - 8.1 &nbsp; 帧同步: chapter_graph/graph.md
+    - 8.2 &nbsp; 状态同步: chapter_graph/graph_operations.md
+    - 8.3 &nbsp; 碰撞检测: chapter_graph/graph_traversal.md
+    - 8.4 &nbsp; 消息广播: chapter_graph/graph_traversal.md
+    - 8.5 &nbsp; 小结: chapter_graph/summary.md
+  - 第 9 章 &nbsp; 常用算法:
+    # [icon: material/text-search]
+    - chapter_searching/index.md
+    - 9.1 &nbsp; 战争迷雾: chapter_searching/binary_search.md
+    - 9.2 &nbsp; 寻路算法: chapter_searching/binary_search.md
+    - 9.3 &nbsp; 随机加权: chapter_searching/binary_search.md
+    - 9.4 &nbsp; 小结: chapter_searching/summary.md
+  - 第 10 章 &nbsp; 事件总线:
+    # [icon: material/family-tree]
+    - chapter_event_bus/index.md
+    - 10.1 &nbsp; 全局广播: chapter_event_bus/global_broadcast.md
+    - 10.2 &nbsp; 小结: chapter_event_bus/summary.md
+  - 第 11 章 &nbsp; 外挂检测:
+    # [icon: material/family-tree]
+    - chapter_cheating_detection/index.md
+    - 11.1 &nbsp; 通信频率: chapter_cheating_detection/communication_frequency.md
+    - 11.2 &nbsp; 通信流量: chapter_cheating_detection/communication_traffic.md
+    - 11.3 &nbsp; 小结: chapter_cheating_detection/summary.md
+  - 第 12 章 &nbsp; 服务发现:
+    # [icon: material/family-tree]
+    - chapter_service_discovery/index.md
+    - 12.1 &nbsp; Etcd: chapter_service_discovery/etcd.md
+    - 12.2 &nbsp; Consul: chapter_service_discovery/consul.md
+    - 12.3 &nbsp; 小结: chapter_service_discovery/summary.md
+  - 第 13 章 &nbsp; 容器化部署:
+    # [icon: material/family-tree]
+    - chapter_containerization/index.md
+    - 13.1 &nbsp; Docker: chapter_containerization/docker.md
+    - 13.2 &nbsp; Kubernetes: chapter_containerization/kubernetes.md
+    - 13.3 &nbsp; 小结: chapter_containerization/summary.md
+  - 第 14 章 &nbsp; 生成配置表:
+    # [icon: material/family-tree]
+    - chapter_heap/index.md
+    - 14.1 &nbsp; Luban: chapter_heap/heap.md
+    - 14.2 &nbsp; 小结: chapter_heap/summary.md
+  - 第 15 章 &nbsp; 附录:
+    # [icon: material/help-circle-outline]
+    - chapter_appendix/index.md
+    - 15.1 &nbsp; 编程环境安装: chapter_appendix/installation.md
+    - 15.2 &nbsp; 一起参与创作: chapter_appendix/contribution.md
+    - 15.3 &nbsp; 术语表: chapter_appendix/terminology.md
+  - 参考文献:
+    - chapter_reference/index.md
