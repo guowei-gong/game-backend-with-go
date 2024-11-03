@@ -147,21 +147,21 @@ nav:
     - 0.3 &nbsp; 小结: chapter_preface/summary.md
   - 第 1 章 &nbsp; 测试:
     # [icon: material/stack-overflow]
-    - chapter_stack_and_queue/index.md
-    - 1.1 &nbsp; 测试机器人: chapter_stack_and_queue/stack.md
-    - 1.2 &nbsp; 小结: chapter_stack_and_queue/summary.md
+    - chapter_test/index.md
+    - 1.1 &nbsp; 测试机器人: chapter_test/stack.md
+    - 1.2 &nbsp; 小结: chapter_test/summary.md
   - 第 2 章 &nbsp; 热更新:
     # [icon: material/calculator-variant-outline]
-    - chapter_introduction/index.md
-    - 2.1 &nbsp; 配置热更: chapter_introduction/algorithms_are_everywhere.md
-    - 2.2 &nbsp; 代码热更: chapter_introduction/what_is_dsa.md
-    - 2.3 &nbsp; 小结: chapter_introduction/summary.md
+    - chapter_hot_update/index.md
+    - 2.1 &nbsp; 配置热更: chapter_hot_update/algorithms_are_everywhere.md
+    - 2.2 &nbsp; 代码热更: chapter_hot_update/what_is_dsa.md
+    - 2.3 &nbsp; 小结: chapter_hot_update/summary.md
   - 第 3 章 &nbsp; 网络编程:
     # [icon: material/timer-sand]
-    - chapter_computational_complexity/index.md
-    - 3.1 &nbsp; 组包与解包: chapter_computational_complexity/performance_evaluation.md
-    - 3.2 &nbsp; KCP 协议: chapter_computational_complexity/kcp.md
-    - 3.3 &nbsp; 小结: chapter_computational_complexity/summary.md
+    - chapter_network_programming/index.md
+    - 3.1 &nbsp; 组包与解包: chapter_network_programming/performance_evaluation.md
+    - 3.2 &nbsp; KCP 协议: chapter_network_programming/kcp.md
+    - 3.3 &nbsp; 小结: chapter_network_programming/summary.md
   - 第 4 章 &nbsp; 数据结构:
     # [icon: material/shape-outline]
     - chapter_data_structure/index.md
@@ -171,40 +171,40 @@ nav:
     - 4.4 &nbsp; 小结: chapter_data_structure/summary.md
   - 第 5 章 &nbsp; 无锁编程:
     # [icon: material/view-list-outline]
-    - chapter_array_and_linkedlist/index.md
-    - 5.1 &nbsp; Actor 模型: chapter_array_and_linkedlist/array.md
-    - 5.2 &nbsp; 小结: chapter_array_and_linkedlist/summary.md
+    - chapter_lock_free/index.md
+    - 5.1 &nbsp; Actor 模型: chapter_lock_free/array.md
+    - 5.2 &nbsp; 小结: chapter_lock_free/summary.md
   - 第 6 章 &nbsp; 断线重连:
     # [icon: material/table-search]
-    - chapter_hashing/index.md
-    - 6.1 &nbsp; 小结: chapter_hashing/summary.md
+    - chapter_reconnection/index.md
+    - 6.1 &nbsp; 小结: chapter_reconnection/summary.md
   - 第 7 章 &nbsp; 常见业务:
     # [icon: material/graph-outline]
-    - chapter_tree/index.md
-    - 7.1 &nbsp; 排行榜: chapter_tree/binary_tree.md
-    - 7.2 &nbsp; 多人匹配 · 我感觉你是一位很强的魔法使: chapter_tree/binary_tree_traversal.md
-    - 7.3 &nbsp; 充值系统 · 每一次挥动都是致命一击: chapter_tree/array_representation_of_tree.md
-    - 7.4 &nbsp; 道具系统 · 没有人阻止我发动世界级道具吗: chapter_tree/binary_search_tree.md
-    - 7.5 &nbsp; 关卡系统: chapter_tree/summary.md
-    - 7.6 &nbsp; 登录注册: chapter_tree/login_and_register.md
-    - 7.7 &nbsp; 邮件系统: chapter_tree/mail_system.md
-    - 7.8 &nbsp; 管理后台: chapter_tree/admin_system.md
-    - 7.9 &nbsp; 小结: chapter_tree/summary.md
+    - chapter_business/index.md
+    - 7.1 &nbsp; 排行榜: chapter_business/binary_tree.md
+    - 7.2 &nbsp; 多人匹配 · 我感觉你是一位很强的魔法使: chapter_business/binary_tree_traversal.md
+    - 7.3 &nbsp; 充值系统 · 每一次挥动都是致命一击: chapter_business/array_representation_of_tree.md
+    - 7.4 &nbsp; 道具系统 · 没有人阻止我发动世界级道具吗: chapter_business/binary_search_tree.md
+    - 7.5 &nbsp; 关卡系统: chapter_business/summary.md
+    - 7.6 &nbsp; 登录注册: chapter_business/login_and_register.md
+    - 7.7 &nbsp; 邮件系统: chapter_business/mail_system.md
+    - 7.8 &nbsp; 管理后台: chapter_business/admin_system.md
+    - 7.9 &nbsp; 小结: chapter_business/summary.md
   - 第 8 章 &nbsp; 场景管理:
     # [icon: material/graphql]
-    - chapter_graph/index.md
-    - 8.1 &nbsp; 帧同步: chapter_graph/graph.md
-    - 8.2 &nbsp; 状态同步: chapter_graph/graph_operations.md
-    - 8.3 &nbsp; 碰撞检测: chapter_graph/graph_traversal.md
-    - 8.4 &nbsp; 消息广播: chapter_graph/graph_traversal.md
-    - 8.5 &nbsp; 小结: chapter_graph/summary.md
+    - chapter_scene_management/index.md
+    - 8.1 &nbsp; 帧同步: chapter_scene_management/graph.md
+    - 8.2 &nbsp; 状态同步: chapter_scene_management/graph_operations.md
+    - 8.3 &nbsp; 碰撞检测: chapter_scene_management/graph_traversal.md
+    - 8.4 &nbsp; 消息广播: chapter_scene_management/graph_traversal.md
+    - 8.5 &nbsp; 小结: chapter_scene_management/summary.md
   - 第 9 章 &nbsp; 常用算法:
     # [icon: material/text-search]
-    - chapter_searching/index.md
-    - 9.1 &nbsp; 战争迷雾: chapter_searching/binary_search.md
-    - 9.2 &nbsp; 寻路算法: chapter_searching/binary_search.md
-    - 9.3 &nbsp; 随机加权: chapter_searching/binary_search.md
-    - 9.4 &nbsp; 小结: chapter_searching/summary.md
+    - chapter_algorithm/index.md
+    - 9.1 &nbsp; 战争迷雾: chapter_algorithm/binary_search.md
+    - 9.2 &nbsp; 寻路算法: chapter_algorithm/binary_search.md
+    - 9.3 &nbsp; 随机加权: chapter_algorithm/binary_search.md
+    - 9.4 &nbsp; 小结: chapter_algorithm/summary.md
   - 第 10 章 &nbsp; 事件总线:
     # [icon: material/family-tree]
     - chapter_event_bus/index.md
@@ -212,10 +212,10 @@ nav:
     - 10.2 &nbsp; 小结: chapter_event_bus/summary.md
   - 第 11 章 &nbsp; 外挂检测:
     # [icon: material/family-tree]
-    - chapter_cheating_detection/index.md
-    - 11.1 &nbsp; 通信频率: chapter_cheating_detection/communication_frequency.md
-    - 11.2 &nbsp; 通信流量: chapter_cheating_detection/communication_traffic.md
-    - 11.3 &nbsp; 小结: chapter_cheating_detection/summary.md
+    - chapter_cheat_detection/index.md
+    - 11.1 &nbsp; 通信频率: chapter_cheat_detection/communication_frequency.md
+    - 11.2 &nbsp; 通信流量: chapter_cheat_detection/communication_traffic.md
+    - 11.3 &nbsp; 小结: chapter_cheat_detection/summary.md
   - 第 12 章 &nbsp; 服务发现:
     # [icon: material/family-tree]
     - chapter_service_discovery/index.md
@@ -230,9 +230,9 @@ nav:
     - 13.3 &nbsp; 小结: chapter_containerization/summary.md
   - 第 14 章 &nbsp; 生成配置表:
     # [icon: material/family-tree]
-    - chapter_heap/index.md
-    - 14.1 &nbsp; Luban: chapter_heap/heap.md
-    - 14.2 &nbsp; 小结: chapter_heap/summary.md
+    - chapter_gen_config_table/index.md
+    - 14.1 &nbsp; Luban: chapter_gen_config_table/luban.md
+    - 14.2 &nbsp; 小结: chapter_gen_config_table/summary.md
   - 第 15 章 &nbsp; 附录:
     # [icon: material/help-circle-outline]
     - chapter_appendix/index.md
